@@ -3,11 +3,12 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "1987c1441ac2e25919ee2d471c2973de",
-"assets/AssetManifest.bin.json": "1e5a4304f2409523ecfc82cab3c54497",
-"assets/AssetManifest.json": "5bcbfa918dfc1a7001d18466a312d38a",
+const RESOURCES = {"assets/AssetManifest.bin": "6955cbe662e237572d0fcea984b710fd",
+"assets/AssetManifest.bin.json": "b692313f58171b773d5bfae4b8681f78",
+"assets/AssetManifest.json": "a6ed39e9a47e3fe9c9c8888b1dd9df16",
 "assets/assets/fonts/Jost-Regular.ttf": "3ccf189874e82464a4233d9dccd41c97",
 "assets/assets/icons/icon.png": "a01643b04b82e895d9f7d520ce49e002",
+"assets/assets/images/chai_bg.png": "98a1629abe3ecffa2d1c003f1ffb45ab",
 "assets/assets/images/Chai_Kings_logo.svg": "6447411afd6fe4bf8ede5031b530d1e5",
 "assets/assets/images/coupon.svg": "2ea00146bfe7b4d32d84585e54175552",
 "assets/assets/images/india-flag-icon.svg": "f23942851815f6633b23b68be0763a8a",
@@ -52,9 +53,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "1987c1441ac2e25919ee2d471c2973de
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "476279ee7221256d2a01fad7482eed23",
-"/": "476279ee7221256d2a01fad7482eed23",
-"main.dart.js": "d3fa9f492e7d96e2e7324934511d2f78",
+"index.html": "2aec6a2f341bf1c4925313768466acbe",
+"/": "2aec6a2f341bf1c4925313768466acbe",
+"main.dart.js": "22246f6e24518d0610cc9d6b330af54a",
 "manifest.json": "8df3f0708ea6ac1d6a1b3434ae353544",
 "version.json": "2bb8e2a25985ddbf11286f36308211c3"};
 // The application shell files that are downloaded before a service worker can
