@@ -20,7 +20,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "6955cbe662e237572d0fcea984b710fd
 "assets/assets/images/otp_code.svg": "9572e620d49ef3d95bd3305b6ae1bb49",
 "assets/assets/images/otp_phone.svg": "635bd0583faffda9fa39f88dda14e979",
 "assets/assets/images/qr-code-dummy.svg": "8957ce3fdfc37b2be82f39128e0f478d",
-"assets/assets/images/qr-code.svg": "b60f8cb5624e96d4a1d7f9fe538d1756",
+"assets/assets/images/qr-code.svg": "c98bd7ca1e6139a3f0c48171e12298e5",
 "assets/assets/images/RouterOffline.png": "316857531faf5774c8743b5219e59555",
 "assets/assets/images/search.svg": "5437e5214c32dc0a8b1e3e3749edd831",
 "assets/assets/images/store.svg": "01fa29dd682e89bdb3d28ef5fd815b8d",
@@ -53,9 +53,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "6955cbe662e237572d0fcea984b710fd
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "2aec6a2f341bf1c4925313768466acbe",
-"/": "2aec6a2f341bf1c4925313768466acbe",
-"main.dart.js": "22246f6e24518d0610cc9d6b330af54a",
+"index.html": "5a6eb1d5ad3e6a813c03cbc8088a2e23",
+"/": "5a6eb1d5ad3e6a813c03cbc8088a2e23",
+"main.dart.js": "de55f1d58df997f6dcefa61ea0bc6bd3",
 "manifest.json": "8df3f0708ea6ac1d6a1b3434ae353544",
 "version.json": "2bb8e2a25985ddbf11286f36308211c3"};
 // The application shell files that are downloaded before a service worker can
