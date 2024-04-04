@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "18b76aa375dc99de2b3b5ace4cf0567a",
-"assets/AssetManifest.bin.json": "e55f2d69949c44da0dab7c2ca8950cce",
-"assets/AssetManifest.json": "1c1e6159f9824ddac971f19bd15ef3a4",
+const RESOURCES = {"assets/AssetManifest.bin": "53536cdce30f1e43b151e1144e877fbd",
+"assets/AssetManifest.bin.json": "dc9044994ce6a941593c95d0f434c3e3",
+"assets/AssetManifest.json": "da5aed2f110987e49455bd24dd1095b8",
 "assets/assets/fonts/Jost-Regular.ttf": "3ccf189874e82464a4233d9dccd41c97",
 "assets/assets/icons/icon.png": "a01643b04b82e895d9f7d520ce49e002",
 "assets/assets/images/chai_bg.png": "98a1629abe3ecffa2d1c003f1ffb45ab",
@@ -13,6 +13,11 @@ const RESOURCES = {"assets/AssetManifest.bin": "18b76aa375dc99de2b3b5ace4cf0567a
 "assets/assets/images/coupon.svg": "2ea00146bfe7b4d32d84585e54175552",
 "assets/assets/images/india-flag-icon.svg": "f23942851815f6633b23b68be0763a8a",
 "assets/assets/images/location_arrow.svg": "0c49aa0c1b1588e57e15a2d853460702",
+"assets/assets/images/menu/menu_coffie.png": "1db54c2b2c8809aef53e6d399d57e69c",
+"assets/assets/images/menu/menu_sandwich.png": "a2d6a2e0ff4650abef127cf8b79a3c25",
+"assets/assets/images/menu/menu_snacks.png": "91c628258780f85911bf17f1e1d08371",
+"assets/assets/images/menu/menu_tea.png": "ab1c3e5d5355a220d8ebd0c7b73edfed",
+"assets/assets/images/menu/menu_zaf.png": "f6dff459cd674b9f30e705d2c3a20cab",
 "assets/assets/images/navigation.svg": "0368b80072fdffa0b241969433952198",
 "assets/assets/images/non-veg_indicator.svg": "e3c51d6cf9df1c53ebd0f84391f24af8",
 "assets/assets/images/offer.png": "2e9ce78605352477599e2d2303cc2277",
@@ -36,7 +41,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "18b76aa375dc99de2b3b5ace4cf0567a
 "assets/assets/lottie/wallet_animation.json": "a1d6b5fba27796b74db4b8bc5eba1342",
 "assets/FontManifest.json": "377fa6e6ef240a2cfbe5e5c664941f37",
 "assets/fonts/MaterialIcons-Regular.otf": "72dd0d284108ab7bbb3cdd015f92e150",
-"assets/NOTICES": "34d004e241927e0e458da30ae1334004",
+"assets/NOTICES": "0e6516eaf27ef3e639652e078a5b186a",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
 "canvaskit/canvaskit.js": "c86fbd9e7b17accae76e5ad116583dc4",
 "canvaskit/canvaskit.js.symbols": "38cba9233b92472a36ff011dc21c2c9f",
@@ -54,9 +59,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "18b76aa375dc99de2b3b5ace4cf0567a
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "108d99d6bb902d9b7bb228dec4c0d707",
-"/": "108d99d6bb902d9b7bb228dec4c0d707",
-"main.dart.js": "04ccf2dfd9e1b74b59588d7971486ba5",
+"index.html": "960ed7293c24c023fd15fcb359f663d7",
+"/": "960ed7293c24c023fd15fcb359f663d7",
+"main.dart.js": "764a0c2682fe1abd65462c66025920f6",
 "manifest.json": "8df3f0708ea6ac1d6a1b3434ae353544",
 "version.json": "2bb8e2a25985ddbf11286f36308211c3"};
 // The application shell files that are downloaded before a service worker can
