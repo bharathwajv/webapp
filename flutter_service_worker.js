@@ -40,7 +40,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "53536cdce30f1e43b151e1144e877fbd
 "assets/assets/lottie/PaymentSuccess.json": "bc4f1bcb9a802c3252b79826e6cf39bc",
 "assets/assets/lottie/wallet_animation.json": "a1d6b5fba27796b74db4b8bc5eba1342",
 "assets/FontManifest.json": "377fa6e6ef240a2cfbe5e5c664941f37",
-"assets/fonts/MaterialIcons-Regular.otf": "72dd0d284108ab7bbb3cdd015f92e150",
+"assets/fonts/MaterialIcons-Regular.otf": "2e85291000fd2d1be407f28218e84c0e",
 "assets/NOTICES": "0e6516eaf27ef3e639652e078a5b186a",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
 "canvaskit/canvaskit.js": "c86fbd9e7b17accae76e5ad116583dc4",
@@ -59,9 +59,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "53536cdce30f1e43b151e1144e877fbd
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "a1ead9730d22e2be7de9b46801172538",
-"/": "a1ead9730d22e2be7de9b46801172538",
-"main.dart.js": "f47f821dee90ac67a14284a21831234d",
+"index.html": "c02a9d91b6ed22e85ec398bef7d13142",
+"/": "c02a9d91b6ed22e85ec398bef7d13142",
+"main.dart.js": "3bfd321d19a0cd34e8fba691bb818c70",
 "manifest.json": "8df3f0708ea6ac1d6a1b3434ae353544",
 "version.json": "2bb8e2a25985ddbf11286f36308211c3"};
 // The application shell files that are downloaded before a service worker can
