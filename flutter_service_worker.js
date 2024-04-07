@@ -40,8 +40,8 @@ const RESOURCES = {"assets/AssetManifest.bin": "53536cdce30f1e43b151e1144e877fbd
 "assets/assets/lottie/PaymentSuccess.json": "bc4f1bcb9a802c3252b79826e6cf39bc",
 "assets/assets/lottie/wallet_animation.json": "a1d6b5fba27796b74db4b8bc5eba1342",
 "assets/FontManifest.json": "377fa6e6ef240a2cfbe5e5c664941f37",
-"assets/fonts/MaterialIcons-Regular.otf": "2e85291000fd2d1be407f28218e84c0e",
-"assets/NOTICES": "0e6516eaf27ef3e639652e078a5b186a",
+"assets/fonts/MaterialIcons-Regular.otf": "58a74d475ed0dfdb1f59aef1d40c29bf",
+"assets/NOTICES": "c7d149420203f8f6369370dd585a031a",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
 "canvaskit/canvaskit.js": "c86fbd9e7b17accae76e5ad116583dc4",
 "canvaskit/canvaskit.js.symbols": "38cba9233b92472a36ff011dc21c2c9f",
@@ -59,9 +59,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "53536cdce30f1e43b151e1144e877fbd
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "da122eaddf34b992134fe217e533e4fd",
-"/": "da122eaddf34b992134fe217e533e4fd",
-"main.dart.js": "eb1d887e8e004e35fe9e1e7c39575428",
+"index.html": "3e56f2d32141cf52d66c4a343d77385d",
+"/": "3e56f2d32141cf52d66c4a343d77385d",
+"main.dart.js": "2029c9d9085c9ca7616c9105559898bb",
 "manifest.json": "8df3f0708ea6ac1d6a1b3434ae353544",
 "version.json": "2bb8e2a25985ddbf11286f36308211c3"};
 // The application shell files that are downloaded before a service worker can
