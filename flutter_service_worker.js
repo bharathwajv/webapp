@@ -40,8 +40,8 @@ const RESOURCES = {"assets/AssetManifest.bin": "1d3f789af54bfcd1a53e953a5e37e7c2
 "assets/assets/lottie/PaymentSuccess.json": "bc4f1bcb9a802c3252b79826e6cf39bc",
 "assets/assets/lottie/wallet_animation.json": "a1d6b5fba27796b74db4b8bc5eba1342",
 "assets/FontManifest.json": "66af42192d977895d26d200651046b3b",
-"assets/fonts/MaterialIcons-Regular.otf": "0ffbe4488d781071f18a9ae670c980fe",
-"assets/NOTICES": "a2211745cb08e76951e70dbd341bbd96",
+"assets/fonts/MaterialIcons-Regular.otf": "cfbdcd2745bdf31be4ecc5ee2f1dc986",
+"assets/NOTICES": "7ff54195398917e9f6cce73dcbc2c5a4",
 "assets/packages/iconsax_flutter/fonts/FlutterIconsax.ttf": "83c878235f9c448928034fe5bcba1c8a",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
 "canvaskit/canvaskit.js": "c86fbd9e7b17accae76e5ad116583dc4",
@@ -60,9 +60,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "1d3f789af54bfcd1a53e953a5e37e7c2
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "a49702e9b78ac9fbf731264d46fa9fe9",
-"/": "a49702e9b78ac9fbf731264d46fa9fe9",
-"main.dart.js": "6d32d3be89f25dbb9007c7d8e9a952d8",
+"index.html": "b626e5cf1b65f703ef8b72b79f23e754",
+"/": "b626e5cf1b65f703ef8b72b79f23e754",
+"main.dart.js": "2ddc9c20b5cb54d9a97925d22356a8fd",
 "manifest.json": "8df3f0708ea6ac1d6a1b3434ae353544",
 "version.json": "2bb8e2a25985ddbf11286f36308211c3"};
 // The application shell files that are downloaded before a service worker can
