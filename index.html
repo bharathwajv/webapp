@@ -1,19 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -30,8 +18,109 @@
 
   <title>chai_kings</title>
   <link rel="manifest" href="manifest.json">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .loader {
+      width: 16px;
+      height: 16px;
+      box-shadow: 0 30px, 0 -30px;
+      border-radius: 4px;
+      background: currentColor;
+      display: block;
+      margin: 0 auto;
+      position: relative;
+      color: #2e8b57;
+      transform: translateY(30px);
+      box-sizing: border-box;
+      animation: animloader 2s ease infinite;
+    }
+    .loader::after, .loader::before {
+      content: '';
+      box-sizing: border-box;
+      width: 16px;
+      height: 16px;
+      box-shadow: 0 30px, 0 -30px;
+      border-radius: 4px;
+      background: currentColor;
+      color: #2e8b57;
+      position: absolute;
+      left: 30px;
+      top: 0;
+      animation: animloader 2s 0.2s ease infinite;
+    }
+    .loader::before {
+      animation-delay: 0.4s;
+      left: 60px;
+    }
+    @keyframes animloader {
+      0% { top: 0; color: #2e8b57; }
+      50% { top: 30px; color: rgba(46, 139, 87, 0.2); }
+      100% { top: 0; color: #2e8b57; }
+    }
+    #loading-message {
+      font-size: 18px;
+      color: #2e8b57;
+      text-align: center;
+      margin-top: 60px;
+      position: absolute;
+      bottom: 40px;
+      padding-left: 50px;
+    }
+  </style>
 </head>
 <body>
+  <div class="container">
+    <div class="loader"></div>
+    <div id="loading-message"></div>
+  </div>
+  <script>
+    const messages = [
+      "Brewing your chai...",
+      "Steeping the perfect cup...",
+      "Adding a dash of spice...",
+      "Warming up your kettle...",
+      "Selecting the finest tea leaves...",
+      "Preparing your chai latte...",
+      "Whisking your matcha...",
+      "Infusing flavors...",
+      "Blending your custom tea...",
+      "Heating water to the perfect temperature..."
+    ];
+
+    function displayRandomMessage() {
+      const messageElement = document.getElementById('loading-message');
+      const randomIndex = Math.floor(Math.random() * messages.length);
+      messageElement.textContent = messages[randomIndex];
+    }
+
+    displayRandomMessage();
+    setInterval(displayRandomMessage, 3000);
+
+    window.addEventListener('load', function() {
+      var loader = document.querySelector('.loader');
+      var message = document.getElementById('loading-message');
+      loader.style.display = 'none';
+      message.style.display = 'none';
+    });
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
