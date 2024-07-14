@@ -59649,8 +59649,10 @@ while(true)switch(s){case 0:p=$.hO()
 o=p.$1$0(t.iS).a
 o===$&&A.b()
 o=A.ft(o.qv(0,"IsSplashSeen"))
-p.$1$0(t.S5).a.i(0,"IsDeliveryTypeSet")
+p=p.$1$0(t.S5).a.i(0,"IsDeliveryTypeSet")
 if(o!==!0){q="/splash"
+s=1
+break}else if(p!==!0){q="/delsel"
 s=1
 break}q=null
 s=1
