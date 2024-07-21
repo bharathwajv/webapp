@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="A new Flutter project.">
@@ -90,33 +91,9 @@
     <div id="loading-message"></div>
   </div>
   <script>
-    const messages = [
-      "Brewing your chai...",
-      "Steeping the perfect cup...",
-      "Adding a dash of spice...",
-      "Warming up your kettle...",
-      "Selecting the finest tea leaves...",
-      "Preparing your chai latte...",
-      "Whisking your matcha...",
-      "Infusing flavors...",
-      "Blending your custom tea...",
-      "Heating water to the perfect temperature..."
-    ];
-
-    function displayRandomMessage() {
-      const messageElement = document.getElementById('loading-message');
-      const randomIndex = Math.floor(Math.random() * messages.length);
-      messageElement.textContent = messages[randomIndex];
-    }
-
-    displayRandomMessage();
-    setInterval(displayRandomMessage, 3000);
-
     window.addEventListener('flutter-first-frame', function() {
       var loader = document.querySelector('.loader');
-      var message = document.getElementById('loading-message');
       loader.style.display = 'none';
-      message.style.display = 'none';
     });
   </script>
   <script src="flutter_bootstrap.js" async></script>
