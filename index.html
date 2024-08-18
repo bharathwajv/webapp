@@ -36,52 +36,28 @@
       align-items: center;
       height: 100vh;
     }
-    .loader {
-      width: 16px;
-      height: 16px;
-      box-shadow: 0 30px, 0 -30px;
-      border-radius: 4px;
-      background: currentColor;
-      display: block;
-      margin: 0 auto;
-      position: relative;
-      color: #2e8b57;
-      transform: translateY(30px);
-      box-sizing: border-box;
-      animation: animloader 2s ease infinite;
-    }
-    .loader::after, .loader::before {
-      content: '';
-      box-sizing: border-box;
-      width: 16px;
-      height: 16px;
-      box-shadow: 0 30px, 0 -30px;
-      border-radius: 4px;
-      background: currentColor;
-      color: #2e8b57;
-      position: absolute;
-      left: 30px;
-      top: 0;
-      animation: animloader 2s 0.2s ease infinite;
-    }
-    .loader::before {
-      animation-delay: 0.4s;
-      left: 60px;
-    }
-    @keyframes animloader {
-      0% { top: 0; color: #2e8b57; }
-      50% { top: 30px; color: rgba(46, 139, 87, 0.2); }
-      100% { top: 0; color: #2e8b57; }
-    }
-    #loading-message {
-      font-size: 18px;
-      color: #2e8b57;
-      text-align: center;
-      margin-top: 60px;
-      position: absolute;
-      bottom: 40px;
-      padding-left: 50px;
-    }
+ /* HTML: <div class="loader"></div> */
+.loader {
+  width: 120px;
+  height: 22px;
+  border-radius: 20px;
+  color: #42985B;
+  border: 2px solid;
+  position: relative;
+}
+.loader::before {
+  content: "";
+  position: absolute;
+  margin: 2px;
+  inset: 0 100% 0 0;
+  border-radius: inherit;
+  background: currentColor;
+  animation: l6 5s infinite; /* Slowed down to 4 seconds */
+}
+@keyframes l6 {
+  100% { inset: 0; }
+}
+
   </style>
 </head>
 <body>
