@@ -57175,7 +57175,7 @@ $3(a,b,c){return A.VO(B.G8,B.U,B.b4,!b?1:0)},
 $S:469}
 A.aqO.prototype={}
 A.aQw.prototype={
-a9p(){var s,r,q=null,p=A.a(["Jost","Syne","DMSerifText","AlegreyaSans","Pacifico"],t.s),o=B.fd.qL(4294967295)
+a9p(){var s,r,q=null,p=A.a(["Jost","Syne","DMSerifText","AlegreyaSans","ProximaNova"],t.s),o=B.fd.qL(4294967295)
 B.b.ad8(p)
 s=B.b.ga1(p)
 r=$.bfv()
@@ -141667,7 +141667,7 @@ b6=A.cx(p)
 b5=A.cx("#ffdde5da")
 b4=A.cx(d)
 A.H7(q,B.aB,b8,a8,q,A.cx(c),q,a6,a2,q,a3,b7,q,q,a5,a,q,q,b6,b5,b2,b9,q,q,b4,q,a9,a4,q,q,q,a7,a1,q,q,q,a0,q,q,q,q,q,q,q,q,q,c0,b0,q,q)
-return new A.aQw(A.bmH(A.m0(q,b1,"Jost",q,q,b,q),t.we))})
+return new A.aQw(A.bmH(A.m0(q,b1,"DMSerifText",q,q,b,q),t.we))})
 r($,"bNA","bfv",()=>{var q=null,p=A.bK(q,q,q,q,q,q,q,q,q,q,q,A.k3(32),q,q,B.av,q,q,!0,q,q,q,q,q,q,q,q),o=A.bK(q,q,q,q,q,q,q,q,q,q,q,A.k3(24),q,q,B.av,q,q,!0,q,q,q,q,q,q,q,q),n=A.bK(q,q,q,q,q,q,q,q,q,q,q,A.k3(18),q,q,B.av,q,q,!0,q,q,q,q,q,q,q,q),m=A.bK(q,q,q,q,q,q,q,q,q,q,q,A.k3(24),q,q,B.av,q,q,!0,q,q,q,q,q,q,q,q),l=A.bK(q,q,q,q,q,q,q,q,q,q,q,A.k3(20),q,q,B.av,q,q,!0,q,q,q,q,q,q,q,q),k=A.bK(q,q,q,q,q,q,q,q,q,q,q,A.k3(16),q,q,B.av,q,q,!0,q,q,q,q,q,q,q,q),j=A.bK(q,q,q,q,q,q,q,q,q,q,q,A.k3(32),q,q,q,q,q,!0,q,q,q,q,q,q,q,q),i=A.bK(q,q,q,q,q,q,q,q,q,q,q,A.k3(22),q,q,q,q,q,!0,q,q,q,q,q,q,q,q),h=A.bK(q,q,q,q,q,q,q,q,q,q,q,A.k3(18),q,q,q,q,q,!0,q,q,q,q,q,q,q,q)
 return A.aQt(A.bK(q,q,q,q,q,q,q,q,q,q,q,A.k3(18),q,q,q,q,q,!0,q,q,q,q,q,q,q,q),A.bK(q,q,q,q,q,q,q,q,q,q,q,A.k3(16),q,q,q,q,q,!0,q,q,q,q,q,q,q,q),A.bK(q,q,q,q,q,q,q,q,q,q,q,A.k3(14),q,q,q,q,q,!0,q,q,q,q,q,q,q,q),j,i,h,p,o,n,A.bK(q,q,q,q,q,q,q,q,q,q,q,A.k3(18),q,q,B.av,q,q,!0,q,q,q,q,q,q,q,q),A.bK(q,q,q,q,q,q,q,q,q,q,q,A.k3(16),q,q,B.av,q,q,!0,q,q,q,q,q,q,q,q),A.bK(q,q,q,q,q,q,q,q,q,q,q,A.k3(14),q,q,q,q,q,!0,q,q,q,q,q,q,q,q),m,l,k)})
 s($,"bUM","eU",()=>$.brq())
